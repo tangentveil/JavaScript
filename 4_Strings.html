@@ -1,0 +1,42 @@
+<!-- 1. What is a String in JavaScript?
+A string in JavaScript is a sequence of characters enclosed within:
+
+Double quotes (")
+Single quotes (')
+Strings can also use template literals (enclosed in backticks `) for advanced formatting. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div id="content"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <script>
+        // Defining strings
+        var string = "this";
+        var name = 'Jhon';
+        var message = 'Hello';
+        
+        // Using template literals
+        var temp = `${name} is a 'nice' person "and" he has a channel called ${channel}`;
+        console.log(temp);
+
+        // String length
+        var len = name.length;
+        console.log(`Length of name is ${len}`);
+
+        // Escape sequences
+        console.log("Hello world\nJohn");
+
+        // Writing to the DOM
+        document.getElementById('content').innerHTML = '<h3>This is an H3 heading</h3>';
+    </script>
+</body>
+</html>
