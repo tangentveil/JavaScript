@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>More About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <div class="container">
+        Another Container
+    </div>
+    
+    <script>
+        // Access by ID
+        let main = document.getElementById('main');
+        console.log(main);
+
+        // Access by Class Name
+        let containers = document.getElementsByClassName('container');
+        console.log(containers);
+        console.log(containers[0]); // First container
+        console.log(containers[1]); // Second container
+
+        // Access by Query Selector
+        let sel = document.querySelector('#nav > li');
+        console.log("Selector returns ", sel);
+
+        // Access multiple elements with Query Selector All
+        let selAll = document.querySelectorAll('#nav > li');
+        selAll.forEach((item) => console.log(item.textContent));
+
+        // Modify content
+        console.log(main.innerHTML); // Get content
+        main.innerHTML = "<h1>Updated Content</h1>"; // Set new content
+    </script>
+</body>
+</html>

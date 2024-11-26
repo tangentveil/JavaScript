@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>    
+        // Function to greet a person
+        function greet(name, greetText = "Greetings") {
+            console.log(greetText + " " + name);
+            console.log(name + " is a boy");
+        }
+    
+        // Function to calculate sum
+        function sum(a, b, c) {
+            let d = a + b + c;
+            return d;
+        }
+    
+        // Using the functions
+        let name = "john";
+        let name1 = "conan";
+        let name2 = "amy";
+        let greetText1 = "Good Morning";
+    
+        greet(name, greetText1);
+        greet(name1, greetText1);
+        greet(name2, greetText1);
+    
+        // Demonstrating the sum function
+        let returnVal = sum(1, 2, 3);
+        console.log(returnVal); // Outputs: 6
+    </script>
+</body>
+</html>
