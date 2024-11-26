@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str = "This is a string";
+        console.log(str);
+
+        // Finding positions
+        console.log(str.indexOf('is')); // Outputs: 2
+        console.log(str.lastIndexOf('is')); // Outputs: 5
+
+        // Extracting substrings
+        console.log(str.slice(1, 7)); // Outputs: "his is"
+        console.log(str.substring(1, 7)); // Outputs: "his is"
+        console.log(str.substr(1, 3)); // Outputs: "his"
+
+        // Replacing
+        console.log(str.replace('string', 'Jhon')); // Outputs: "This is a Jhon"
+
+        // Changing case
+        console.log(str.toUpperCase()); // Outputs: "THIS IS A STRING"
+        console.log(str.toLowerCase()); // Outputs: "this is a string"
+
+        // Concatenation
+        console.log(str.concat(' New String')); // Outputs: "This is a string New String"
+
+        // Trimming whitespace
+        var strWithWhitespaces = "   this contains        whitespaces   ";
+        console.log(strWithWhitespaces.trim()); // Outputs: "this contains        whitespaces"
+
+        // Extracting characters
+        console.log(str.charAt(2)); // Outputs: "i"
+        console.log(str.charCodeAt(2)); // Outputs: 105
+        console.log(str[3]); // Outputs: "s"
+    </script>
+</body>
+</html>

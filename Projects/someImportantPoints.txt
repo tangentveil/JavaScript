@@ -1,0 +1,38 @@
+JavaScript
+
+classList > individual styling
+
+JavaScript Project Basic
+
+mostly used in this projects ----> forEach(), addEventListener(), currentTarget, classList, add(), remove(), parentElement, toggle(), DOMContentLoaded, callBack function, textContent
+
+COLORFLIPPER -> ranom hex color generator and change in backgroud color.
+
+COUNTER -> increase, decreace and reset the number(use in shopping lists).
+
+REVIEWS -> moving backward or forward through reviews of different persons(For Review page).   DOMContentLoaded, callBack function
+
+NAVBAR -> expandible navbar on small screens.  toggle()
+
+SIDEBAR -> same as navbar but from aside.  toggle()
+
+MODAL -> Overlay (kinda popup)
+
+QUESTIONS -> expand questions, one at a time, close opened one if we click on another one.    parentElement
+
+MENU -> displying different items dynamically(div or article) using map(), filtering the different menu items using filter()    DOMContentLoaded, map(), filter(), dataset, 
+displaying the unique filters button dynamically using reduce()
+
+VIDEO -> play pause autoplay, preloading(if internet is slow)
+
+SCROLL -> getBoundingClientRect() -> dynamic height of navbar, fixed navbar, back to top functionality, smooth scroll
+
+Tabs -> switching the tabs,   event target not the currentTarget
+
+COUNTDOWN TIMER -> use of Date(), kinda deadline timer  textContent, setInterval(), clearInterval()
+
+LOREM IPSUM -> genertaing the random para of lorem ipsum, accessing the input value in javascript file.
+
+GROCERY BUD -> kinda todolist, add, remove, localStorage(add, remove, edit, get), clear all, edit, createElement(), createAttribute(), parentElement, previousElementSibling
+
+SLIDER -> kinda pagination.    style.display = 'none', style.display = 'block'

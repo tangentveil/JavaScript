@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">Simple HTML example</div>
+
+    <script>
+        // Primitive Data Types
+        let myVar = 34;
+        let myVar2 = "string";
+        let myVar3 = true;
+        let myVar4 = null;
+        let myVar5 = undefined;
+
+        // Object Example
+        let employee = {
+            name: "john",
+            age: "20",
+            "Nickname": "jo"
+        };
+        console.log(employee);
+
+        // Array Examples
+        let names = [1, 2, 4, "John", undefined];
+        console.log(names);
+
+        // Accessing elements
+        console.log(names[1]); // Outputs: 2
+
+        // Using the 'new' keyword
+        let newNames = new Array(41, 2, 4, "John", undefined);
+        console.log(newNames);
+
+        // Specifying array length
+        let emptyArray = new Array(23);
+        console.log(emptyArray.length); // Outputs: 23
+
+        // Sorting
+        newNames = newNames.sort();
+        console.log(newNames);
+
+        // Adding elements
+        newNames.push("this is pushed");
+        console.log(newNames);
+    </script>
+</body>
+</html>

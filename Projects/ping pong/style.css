@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#container{
+    position: relative;
+}
+
+#ball{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+    border-radius: 50%;
+}
+
+#rod1, #rod2{
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+
+#rod1{
+    background-color: blueviolet;
+    top: 0px;
+}
+
+#rod2{
+    background-color: rgb(53, 53, 255);
+    bottom: 0px;
+}
